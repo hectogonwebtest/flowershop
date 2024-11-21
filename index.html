@@ -13,6 +13,12 @@
       crossorigin="anonymous"
     />
 
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
     <!-- External CSS -->
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -36,8 +42,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Products</a>
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#products">Products</a>
           </div>
         </div>
       </div>
@@ -139,11 +145,8 @@
       </div>
     </section>
 
-    <!-- Carousel -->
-
-    <!-- Heading -->
-
-    <section id="heading">
+    <!-- About -->
+    <section id="about">
       <div class="container">
         <div class="card">
           <div class="card-header">What is Petal & Bloom?</div>
@@ -161,7 +164,7 @@
                 here to help your blooms shine brighter.
               </p>
               <footer class="blockquote-footer">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                Nicole D <cite title="Source Title">CEO</cite>
               </footer>
             </blockquote>
           </div>
@@ -302,6 +305,43 @@
     </section>
 
     <!-- Footer -->
+    <section id="footer">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >© 2024 Petals & Bloom Company, Inc.</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </section>
 
     <!-- JS Bootstrap -->
     <script
